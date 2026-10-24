@@ -12,7 +12,7 @@ Guía progresiva en español para aprender NestJS con TypeScript y construir API
 - [05. Módulos](docs/05-modulos.md)
 - [06. Controladores y rutas](docs/06-controladores-y-rutas.md)
 - [07. Providers y servicios](docs/07-providers-y-servicios.md)
-- [08. Inyección de dependencias](docs/08-inyeccion-de-dependencias.md)
+- [08. Inyección de dependencias](docs/08-inyeccion-dependencias.md)
 - [Ejemplo integrado: API de productos](examples/productos-api/README.md)
 
 Los siguientes capítulos se agregarán por fases y se enlazarán aquí al tener ejemplos completos.
@@ -36,3 +36,4 @@ La documentación oficial consultada en octubre de 2026 corresponde a NestJS 12.
 - [Controladores](https://docs.nestjs.com/controllers)
 - [Providers](https://docs.nestjs.com/providers)
 - [Módulos](https://docs.nestjs.com/modules)
+
