@@ -35,7 +35,8 @@ export class ProductsService {
 
   update(id: number, input: UpdateProductDto): Product {
     const product = this.findOne(id);
-    if (input.name !== undefined) product.name = input.name;`r`n    if (input.price !== undefined) product.price = input.price;
+    if (input.name !== undefined) product.name = input.name;
+    if (input.price !== undefined) product.price = input.price;
     return product;
   }
 
@@ -45,4 +46,5 @@ export class ProductsService {
     this.products.splice(index, 1);
   }
 }
+
 
