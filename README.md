@@ -1,42 +1,38 @@
 # Guía de NestJS 2026
 
-Guía progresiva en español para aprender NestJS y construir APIs mantenibles con TypeScript. El repositorio se encuentra en su fase inicial: el diagnóstico y el mapa de capítulos están en [docs/00-diagnostico-y-plan.md](docs/00-diagnostico-y-plan.md).
+Guía progresiva en español para aprender NestJS con TypeScript y construir APIs mantenibles. Si quieres empezar por algo que puedas ejecutar, ve a [la API mínima de productos](examples/productos-api/README.md).
 
-## Alcance y vigencia
+## Contenido disponible
 
-La referencia principal es la documentación oficial de NestJS. Al preparar esta primera fase, la documentación oficial presenta NestJS 12 como la versión actual. Como el ecosistema cambia, cada capítulo que recomiende versiones o comandos indicará la fecha de consulta y enlazará la fuente primaria. No se fijan versiones de dependencias en esta página como si fueran permanentes.
+- [Diagnóstico del repositorio y plan](docs/00-diagnostico-y-plan.md)
+- [01. Fundamentos: de Node.js a una petición NestJS](docs/01-fundamentos.md)
+- [02. TypeScript útil para NestJS](docs/02-typescript-para-nestjs.md)
+- [03. Instalación y CLI](docs/03-instalacion-y-cli.md)
+- [04. Estructura del proyecto](docs/04-estructura-del-proyecto.md)
+- [05. Módulos](docs/05-modulos.md)
+- [06. Controladores y rutas](docs/06-controladores-y-rutas.md)
+- [07. Providers y servicios](docs/07-providers-y-servicios.md)
+- [08. Inyección de dependencias](docs/08-inyeccion-de-dependencias.md)
+- [Ejemplo integrado: API de productos](examples/productos-api/README.md)
 
-Para empezar, verifica las versiones de Node.js que requiere la versión actual de Nest para ejecutar una aplicación y para usar Nest CLI; estos requisitos pueden ser distintos. Consulta [First steps](https://docs.nestjs.com/first-steps) y [CLI overview](https://docs.nestjs.com/cli/overview).
+Los siguientes capítulos se agregarán por fases y se enlazarán aquí al tener ejemplos completos.
 
-## Ruta de aprendizaje
+## Requisitos actuales
 
-1. [Diagnóstico y plan editorial](docs/00-diagnostico-y-plan.md)
-2. Fundamentos de Node.js, TypeScript, HTTP y arquitectura NestJS
-3. Estructura de proyecto, módulos, controladores, providers e inyección de dependencias
-4. Decoradores y ciclo de vida de una petición
-5. DTO, validación, transformación, pipes, middleware, guards, interceptors y filtros
-6. Persistencia con PostgreSQL y TypeORM; comparación con Prisma
-7. Configuración, autenticación, autorización, OpenAPI y pruebas
-8. Rendimiento, observabilidad, colas, WebSockets, microservicios y GraphQL
-9. Despliegue y proyecto integral de productos y categorías
-10. Glosario, catálogo de paquetes y diagnóstico de errores
+La documentación oficial consultada en octubre de 2026 corresponde a NestJS 12. Esta versión requiere Node.js 20.19+ o 22.12+ para ejecutar una app; los generadores de Nest CLI requieren Node.js 22.22.3+, 24.15+ o 26+. Comprueba los requisitos en [First steps](https://docs.nestjs.com/first-steps) y [CLI overview](https://docs.nestjs.com/cli/overview) antes de comenzar, porque pueden cambiar.
 
-## Índice
+## Cómo estudiar
 
-El índice detallado de capítulos se mantendrá aquí a medida que cada capítulo tenga contenido sustantivo y ejemplos coherentes. La estructura aprobada para el libro está descrita en el diagnóstico editorial. No se enlazarán capítulos vacíos como si estuvieran terminados.
-
-## Principios de la guía
-
-- TypeScript es el lenguaje principal de los ejemplos.
-- Cada recomendación distingue el núcleo de NestJS de Node.js, adaptadores y paquetes de terceros.
-- Los ejemplos usarán nombres y tipos coherentes entre capítulos.
-- Se explicará cuándo escoger una opción y cuáles son sus límites y alternativas.
-- Las referencias priorizan documentación oficial y repositorios mantenidos por sus autores.
-- Los ejercicios incluirán criterios o solución cuando el capítulo esté completo.
+1. Lee el capítulo y ejecuta los comandos en tu terminal.
+2. Copia el ejemplo integrado a una carpeta de trabajo.
+3. Ejecuta `npm run start:dev` y prueba los endpoints con `curl`, Postman o Insomnia.
+4. Cambia una cosa a la vez y observa cómo el módulo conecta el controlador con el servicio.
+5. Sigue después con DTO y validación, persistencia y seguridad.
 
 ## Fuentes principales
 
-- [Documentación de NestJS](https://docs.nestjs.com/)
-- [Primeros pasos de NestJS](https://docs.nestjs.com/first-steps)
-- [CLI de NestJS](https://docs.nestjs.com/cli/overview)
-- [Repositorio oficial de NestJS](https://github.com/nestjs/nest)
+- [Documentación oficial de NestJS](https://docs.nestjs.com/)
+- [Primeros pasos](https://docs.nestjs.com/first-steps)
+- [Controladores](https://docs.nestjs.com/controllers)
+- [Providers](https://docs.nestjs.com/providers)
+- [Módulos](https://docs.nestjs.com/modules)

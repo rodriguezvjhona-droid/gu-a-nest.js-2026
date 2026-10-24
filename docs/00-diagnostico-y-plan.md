@@ -92,4 +92,5 @@ Los nombres pueden ajustarse conforme se construya la guía. El principio es no 
 
 ## Próximo trabajo
 
-La siguiente fase es desarrollar los fundamentos y el capítulo de TypeScript con ejemplos progresivos. La fase 1 queda registrada; no se han creado capítulos vacíos ni se ha enviado ningún commit al remoto.
+La siguiente fase es desarrollar los fundamentos y el capítulo de TypeScript con ejemplos progresivos. La fase 1 y la base inicial de la fase 2 están registradas. La carpeta `examples/productos-api/` incluye archivos TypeScript separados para copiar a un starter del CLI. No se han creado capítulos vacíos ni se han publicado cambios en el remoto.
+
