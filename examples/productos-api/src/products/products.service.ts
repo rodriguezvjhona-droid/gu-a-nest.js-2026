@@ -46,5 +46,3 @@ export class ProductsService {
     this.products.splice(index, 1);
   }
 }
-
-
